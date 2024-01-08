@@ -26,10 +26,16 @@ The Robot Modeling course explores planning techniques essential for realizing a
     - Assigning frames, creating the D-H table, and delivering necessary documentation without requiring homogeneous transformation matrices or geometric validation.
       
 ### [Assignemnet 4](https://github.com/Rishikesh-Jadhav/ENPM662-Robot-Modeling/tree/main/Assignment4): Inverse Kinematics and Trajectory Generation for Panda Robot
-- **Objectives**: Implementing path planning for a Turtlebot using A* algorithm.
-  
-### [Assignemnet 5](https://github.com/Rishikesh-Jadhav/ENPM662-Robot-Modeling/tree/main/Assignment5): Path Planning for Robot Manipulators using OMPL
-- **Objective**: Implementing path planning for KUKA robot manipulator using OMPL.
+- **Objectives**:
+    - Applying the inverse velocity kinematics (Inverse Jacobian) for the Franka Emika Panda robot.
+    - Generating a 10 cm radius circle within 5 seconds using inverse velocity kinematics.
+    - Seting up the Jacobian matrix for the robot via discussed methods in class.
+    - Deriving the circular trajectory equation, obtaining joint angular velocities, performing numerical integration for joint angles, and visualizing the circular trajectory using forward position kinematics.
+    
+### [Assignemnet 5](https://github.com/Rishikesh-Jadhav/ENPM662-Robot-Modeling/tree/main/Assignment5): Manipulator Dynamics - Joint Torque Computation for Panda Robot
+- **Objectives**:
+    - Calculating the joint torques required for the Panda robot to compensate for its weight and exert a 5 N force against the wall while drawing a circle of radius 10 cm within 200 seconds
+    - Setting up the Jacobian and Transformation matrices, Utilizing inbuilt functions for Gravity Matrix setup, considering derivatives, cross-products, and matrix inversion and applying Lagrange's equation to compute joint torques, incorporating kinetic and potential energy considerations. 
 
 
 ## 📚 References
