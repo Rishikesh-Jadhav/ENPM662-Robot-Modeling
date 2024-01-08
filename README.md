@@ -2,7 +2,7 @@
 This repository serves as a comprehensive record of my academic journey in ENPM662 during the Fall of 2022. It encompasses solutions and code submissions for all projects, providing dedicated folders for each project, along with accompanying documentation and resources.
 
 ## 📚 Course Overview
-The Robot Modeling course explores planning techniques essential for realizing autonomous robots. Covering task planning, motion planning, and trajectory planning, the curriculum emphasizes traditional motion planning techniques with a focus on integrating physics into the planning process. Mobile robots are used as examples throughout the course, and the techniques introduced are equally applicable to robot manipulators.
+The Robot Modeling course provides a foundational understanding of robot modeling principles, covering forward and inverse kinematics, velocity kinematics, Jacobians, dynamics, planning, and contact. While the primary focus is on serial open-chain robots, the curriculum also touches on parallel robots, closed-chain systems, aerial and mobile robots, hyper-redundant systems, and grasping.
 
 ## 📄 Assignemnet List
 
@@ -37,9 +37,8 @@ The Robot Modeling course explores planning techniques essential for realizing a
     - Calculating the joint torques required for the Panda robot to compensate for its weight and exert a 5 N force against the wall while drawing a circle of radius 10 cm within 200 seconds
     - Setting up the Jacobian and Transformation matrices, Utilizing inbuilt functions for Gravity Matrix setup, considering derivatives, cross-products, and matrix inversion and applying Lagrange's equation to compute joint torques, incorporating kinetic and potential energy considerations. 
 
-
-## 📚 References
+## 📚 Required Resources
+- **Textbook:** [Robot Modeling and Control](link_to_resource) by Mark W. Spong, Seth Hutchinson, and M. Vidyasagar.
 - **Textbook:** [Planning Algorithms](http://planning.cs.uiuc.edu/) by Steven LaValle, Cambridge University Press, 2006.
-- **Mobile Robotics: Mathematics, Models, and Methods** by Alonzo Kelly, Cambridge University Press, 2013.
-- **Principles of Robot Motion: Theory, Algorithms, and Implementations** by Howie Choset et al., MIT Press, 2005.
-- **Probabilistic Robotics
+
+
